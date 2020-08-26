@@ -1,0 +1,4 @@
+# making word Path from string Hello Python
+greeting = 'Hello Python!'
+add = 'a'
+print (greeting[6]+ add + greeting[8:10])
