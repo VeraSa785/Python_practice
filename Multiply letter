@@ -1,0 +1,3 @@
+# multipy latter
+later = "z"
+print (later*7)
