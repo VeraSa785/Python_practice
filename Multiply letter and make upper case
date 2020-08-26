@@ -1,7 +1,7 @@
-# multipy latter
+# multipy letter
 letter = "z"
-print (later*7)
+print (letter*7)
 
-# multipy latter + making upper case
+# multipy letter + making upper case
 letter = "z"
-print (later.upper()*7)
+print (letter.upper()*7)
