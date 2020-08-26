@@ -1,0 +1,7 @@
+# multipy latter
+letter = "z"
+print (later*7)
+
+# multipy latter + making upper case
+letter = "z"
+print (later.upper()*7)
