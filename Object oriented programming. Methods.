@@ -1,0 +1,19 @@
+# Object oriented programming. Methods.
+class BankAccount:
+    def __init__(self,client_id, client_first_name, client_last_name):
+        self.client_id = client_id
+        self.client_first_name = client_first_name
+        self.client_last_name = client_last_name
+        self.balance = 0.0
+
+    def add(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        self.balance -= amount
+
+user_number_one = BankAccount(23456, "Jon", "Wilson")
+user_number_one.add(3578)
+print (user_number_one.balance)
+user_number_one.withdraw(44)
+print (user_number_one.balance)
