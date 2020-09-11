@@ -1,4 +1,4 @@
-# # Object oriented programming. Polymorphism.
+# Object oriented programming. Polymorphism.
 class GameCharacter:
 
     def __init__(self, name, health, level):
